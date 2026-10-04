@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5e5ce"/><stop offset="1" stop-color="#d7b38e"/></linearGradient>
+  <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9855d"/><stop offset="1" stop-color="#77422f"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="970" cy="145" r="125" fill="#fff3df" opacity=".65"/>
+<path d="M0 660 Q300 575 610 660 T1200 625 V900 H0Z" fill="#b9855f" opacity=".35"/>
+<ellipse cx="600" cy="760" rx="475" ry="55" fill="#633b2b" opacity=".18" filter="url(#shadow)"/>
+
+<!-- worker 1, shown from side/back, no facial features -->
+<g>
+  <path d="M160 700 Q185 525 300 490 Q405 530 425 700Z" fill="#53684b"/>
+  <circle cx="295" cy="420" r="78" fill="#9d684e"/>
+  <path d="M215 405 Q230 320 300 325 Q370 330 382 407 Q348 370 292 372 Q250 370 215 405Z" fill="#493127"/>
+  <path d="M220 450 Q265 475 322 460 L350 560 L235 560Z" fill="#e7c8a8"/>
+  <path d="M300 555 Q380 520 500 595 L465 655 Q390 620 315 620Z" fill="#53684b"/>
+  <path d="M440 610 Q495 585 550 625 L530 675 Q475 650 430 660Z" fill="#9d684e"/>
+</g>
+
+<!-- central artisan and wheel -->
+<g>
+  <ellipse cx="690" cy="650" rx="230" ry="42" fill="#6f4937"/>
+  <ellipse cx="690" cy="635" rx="180" ry="27" fill="#b97550"/>
+  <path d="M570 750 Q585 520 700 500 Q815 525 840 750Z" fill="#a75d3d"/>
+  <circle cx="700" cy="425" r="82" fill="#a87358"/>
+  <path d="M620 410 Q625 315 700 315 Q780 315 790 410 Q750 365 700 368 Q650 370 620 410Z" fill="#473027"/>
+  <path d="M635 470 Q700 495 766 466 L790 560 L610 560Z" fill="#ead5b8"/>
+  <path d="M610 565 Q665 525 710 565 L680 665 L600 640Z" fill="#a75d3d"/>
+  <path d="M775 565 Q735 535 700 570 L735 665 L815 635Z" fill="#a75d3d"/>
+  <!-- hands around clay -->
+  <circle cx="670" cy="590" r="25" fill="#a87358"/>
+  <circle cx="730" cy="590" r="25" fill="#a87358"/>
+  <path d="M660 585 Q700 535 740 585 L730 625 Q700 650 670 625Z" fill="url(#clay)"/>
+  <!-- finished kulhad -->
+  <path d="M665 585 L735 585 L725 635 Q700 650 675 635Z" fill="#c9855d"/>
+  <ellipse cx="700" cy="585" rx="36" ry="9" fill="#dca27c"/>
+</g>
+
+<!-- worker 3 -->
+<g>
+  <path d="M885 720 Q900 540 1000 515 Q1095 545 1120 720Z" fill="#7b523c"/>
+  <circle cx="1000" cy="440" r="73" fill="#a87358"/>
+  <path d="M928 425 Q940 340 1005 345 Q1070 350 1080 425 Q1040 385 995 390 Q955 390 928 425Z" fill="#493127"/>
+  <path d="M930 480 Q1000 505 1060 478 L1080 565 L915 565Z" fill="#efe0c9"/>
+  <path d="M920 565 Q970 530 1010 565 L980 650 L900 620Z" fill="#7b523c"/>
+  <path d="M1040 565 Q1010 535 980 570 L1015 650 L1090 620Z" fill="#7b523c"/>
+  <path d="M875 650 Q935 610 990 655 L970 700 Q915 675 865 695Z" fill="#a87358"/>
+</g>
+
+<!-- handmade kulhads -->
+<g fill="#b96f4a">
+  <path d="M160 785 L205 785 L198 825 Q183 837 168 825Z"/><ellipse cx="182" cy="785" rx="23" ry="6" fill="#d49a73"/>
+  <path d="M225 775 L270 775 L263 815 Q248 827 233 815Z"/><ellipse cx="247" cy="775" rx="23" ry="6" fill="#d49a73"/>
+  <path d="M1080 770 L1125 770 L1118 810 Q1103 822 1088 810Z"/><ellipse cx="1102" cy="770" rx="23" ry="6" fill="#d49a73"/>
+</g>
+
+<text x="60" y="90" font-family="Georgia,serif" font-size="34" fill="#5d3829" letter-spacing="3">RIDS CLAY</text>
+<text x="60" y="125" font-family="Arial,sans-serif" font-size="15" fill="#765f52" letter-spacing="4">EARTH • CRAFT • PURPOSE</text>
+</svg>
